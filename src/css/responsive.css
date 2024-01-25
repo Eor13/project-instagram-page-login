@@ -1,0 +1,24 @@
+@media(max-width:1200px){
+    .i-container-wrapper{
+        width: 90%;
+    }
+}
+@media(max-width:750px){
+    body{
+        background-color: #fff;
+    }
+    .i-container-wrapper{
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .i-phone{
+        display: none;
+    }
+    .i-datas{
+        width: 100%;
+    }
+    .i-group{
+        border: 1px solid transparent;
+    }
+}

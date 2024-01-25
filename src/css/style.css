@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 10vh;
+    background-color: rgb(243,243,243);
+}
+.i-container-wrapper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+.i-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.i-phone img{
+    height: 50rem;
+}
+.i-datas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.i-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 1.3rem 0;
+}
+.i-group:nth-child(1){
+    min-height: 19rem;
+}
+.i-logo{
+    height: 3rem;
+}
+.i-profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.i-profile-photo img{
+    height: 6rem;
+}
+.i-login{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.i-logout, .i-link-blue{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+.i-not-account{
+    color: rgb(160, 160, 160);
+}
+
+.i-get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.i-download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    gap: 5px;
+}
+.i-app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    min-width: 160px;
+}
+
+.i-app-download:nth-child(1){
+    background-image: url(../img/apple-button.png);
+}
+.i-app-download:nth-child(2){
+    background-image: url(../img/googleplay-button.png);
+}
